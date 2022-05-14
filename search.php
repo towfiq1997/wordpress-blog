@@ -13,7 +13,7 @@ $slug = basename(get_permalink($postId));
               while(have_posts()){
                   the_post(); ?>
                    <a href="<?php echo get_permalink(); ?>" class="single_item">
-               <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="size_large">
+               <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="size_large medium">
                <h2><?php echo get_the_title();?></h2>
             <?php  
             ?>
